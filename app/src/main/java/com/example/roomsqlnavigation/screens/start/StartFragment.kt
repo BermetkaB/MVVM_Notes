@@ -48,7 +48,7 @@ private  fun init(){
     adapter.setList(listNotes)
     })
 
-    binding.btn_click.setOnClickListener {
+    binding.btnClick.setOnClickListener {
         APP.navController.navigate(R.id.action_startFragment_to_addNoteFragment)
     }
 }
